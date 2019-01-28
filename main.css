@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.mobile-wrapper {
+  background-color: #EFF2F7;
+  width: 360px;
+  height: 100vh;
+  position: relative; }
+  .mobile-wrapper .mask-header {
+    background-image: linear-gradient(-180deg, #007798 0%, #00425F 100%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 30vh; }
+  .mobile-wrapper .mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00425F;
+    z-index: 9999;
+    height: 56px;
+    padding: 0 16px; }
+  .mobile-wrapper .mobile-body {
+    position: absolute;
+    top: 100px;
+    width: 85%;
+    padding: 0 25px; }
+  .mobile-wrapper .card-activities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .mobile-wrapper .card {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 1px 3px 0 #005162; }
+    .mobile-wrapper .card .card-upper {
+      display: flex;
+      justify-content: flex-end; }
+    .mobile-wrapper .card .card-lower .card-title {
+      font-size: 10px;
+      font-weight: 700;
+      color: #00425F; }
+
+.icon {
+  width: 24px;
+  height: 24px;
+  display: block; }
+  .icon.icon-hamburg {
+    background-image: url("img/menu.svg");
+    background-repeat: no-repeat; }
+  .icon.icon-search {
+    background-image: url("img/search.svg");
+    background-repeat: no-repeat; }
+
+.cardIcon {
+  width: 18px;
+  height: 22px;
+  display: block; }
+  .cardIcon.icon-sendMoney {
+    background-image: url("img/sendMoney.svg");
+    background-repeat: no-repeat; }
